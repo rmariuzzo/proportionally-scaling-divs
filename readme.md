@@ -4,7 +4,7 @@
 
 By declaring its width to be proportional to the window's width, and giving it a bottom padding that's also sized proportionally to the window's width, the div's width and calculated height (the latter created by the bottom padding) will both resize and maintain relative proportions to each other in sync with changes to the window's width.
 
-### DEMO: http://codepen.io/jaepage/pen/cFBLG
+### DEMO: http://codepen.io/jtheletter/pen/cFBLG
 
 ```
 .proportional {
@@ -33,7 +33,7 @@ The child element's width and height are set to `1em`. The size of one em is the
 
 This assures that the child div will retain its proportions as it expands to fill the height of the parent div.
 
-### DEMO: http://codepen.io/jaepage/pen/jbNWqE
+### DEMO: http://codepen.io/jtheletter/pen/jbNWqE
 
 ```
 .wrap {
