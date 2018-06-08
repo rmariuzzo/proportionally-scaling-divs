@@ -6,7 +6,7 @@ By declaring its width to be proportional to the window's width, and giving it a
 
 ### DEMO: http://codepen.io/jtheletter/pen/cFBLG
 
-```
+```css
 .proportional {
   background-color: yellow;
 
@@ -23,7 +23,8 @@ By declaring its width to be proportional to the window's width, and giving it a
   /* Can be any %, 0–∞. */
   /* Percentage is relative to container or window width. */
 }
-
+```
+```html
 <div class="proportional"><div>
 ```
 
@@ -35,7 +36,7 @@ This assures that the child div will retain its proportions as it expands to fil
 
 ### DEMO: http://codepen.io/jtheletter/pen/jbNWqE
 
-```
+```css
 .wrap {
   background-color: yellow;
   font-size: 250px;
@@ -47,7 +48,8 @@ This assures that the child div will retain its proportions as it expands to fil
   height: 1em;
   width: 1em;
 }
-
+```
+```html
 <div class="wrap">
   <div class="circle"></div>
 </div>
